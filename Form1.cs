@@ -26,5 +26,15 @@ namespace WindowsFormsApp1
         {
             JarmoKarna.Program.JarmoKarna();
         }
+        
+        private void ButtonRahahomma_Click(object sender, EventArgs e)
+        {
+            rahajuttu.Program.rahajuttu();
+        }
+
+        private void ButtonArttu_Click(object sender, EventArgs e)
+        {
+            ArttuLaihorinne.Program.JyriLehto();
+        }
     }
 }
