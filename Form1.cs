@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
             JyriLehto.Program.JyriLehto();            
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private void ButtonJMR_Click(object sender, EventArgs e)
         {
             Olio_Harjoitus.Program.JMR(null);
         }
