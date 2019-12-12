@@ -57,6 +57,8 @@ namespace WindowsFormsApp1.JyriLehto
                 Console.Clear();
                 Console.SetCursorPosition(0, 0);
             }
+
+            exit = false;
         }
 
         private static void keyListener()
