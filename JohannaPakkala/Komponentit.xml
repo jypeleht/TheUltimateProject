@@ -72,4 +72,16 @@
     <Pcs>67</Pcs>
     <Price>2.79</Price>
   </SingleComponent>
+  <SingleComponent>
+    <Id>16</Id>
+    <Name>ruuvi 25 mm</Name>
+    <Pcs>122</Pcs>
+    <Price>1</Price>
+  </SingleComponent>
+  <SingleComponent>
+    <Id>17</Id>
+    <Name>ruuvi 50 mm</Name>
+    <Pcs>114</Pcs>
+    <Price>0.39</Price>
+  </SingleComponent>
 </ArrayOfSingleComponent>

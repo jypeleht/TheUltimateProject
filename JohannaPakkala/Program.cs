@@ -3,12 +3,13 @@
 using System.IO;
 // to use lists
 using System.Collections.Generic;
+using System.Windows.Forms;
 
-namespace WindowsFormsApp1.Menekki_0._3 //8.10.2019
+namespace WindowsFormsApp1.JohannaPakkala.Menekki_0._3 //8.10.2019
 {
     class Program
     {
-        static void JohannaPakkala(string[] args)
+        public static void JohannaPakkala()
         {
             // helper variable to loop menu
             bool loopMenu = true;

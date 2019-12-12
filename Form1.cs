@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
 
         private void Button2_Click(object sender, EventArgs e)
         {
-         //   JohannaPakkala.Program.JohannaPakkala();
+            JohannaPakkala.Menekki_0._3.Program.JohannaPakkala();
         }
     }
 }

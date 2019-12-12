@@ -7,7 +7,7 @@ using System.Linq;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace Menekki_0._3
+namespace WindowsFormsApp1.JohannaPakkala.Menekki_0._3
 {
     public class SingleComponent
     {
@@ -68,16 +68,16 @@ namespace Menekki_0._3
 
             do // ask PRICE until input is number and > 0
             {
-                Console.WriteLine("Anna kappalehinta €: (0.00) ");
+                Console.WriteLine("Anna kappalehinta €: (0,00) ");
                 // isNumber = double.TryParse(Console.ReadLine(), out _price);
 
                 try
                 {
                     string givenPrice = Console.ReadLine();
                     // check if user has used comma instead of dot and replace it
-                    if (givenPrice.Contains(","))
+                    if (givenPrice.Contains("."))
                     {
-                        givenPrice = givenPrice.Replace(",", ".");
+                        givenPrice = givenPrice.Replace(".", ",");
                     }
                     isNumber = double.TryParse(givenPrice, out _price);
                 }

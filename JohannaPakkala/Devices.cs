@@ -7,14 +7,16 @@ using System.Collections.Generic;
 using System.Linq;
 // to save xml-files
 using System.Xml.Serialization;
+using System.Windows.Forms;
 
-namespace Menekki_0._3
+namespace WindowsFormsApp1.JohannaPakkala.Menekki_0._3
 {
     public class Devices
     {
 
         List<SingleDevice> DeviceList = new List<SingleDevice>();
-        private static string pathAndFilename = "Laitteet.xml";
+
+        private static string pathAndFilename = Path.GetFullPath(Path.Combine(Application.StartupPath, @"../../JohannaPakkala/Laitteet.xml"));
 
         // brought-in list of components (from Components.cs)
         private Components _components;

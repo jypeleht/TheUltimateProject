@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Linq;
 // to save xml-files
 using System.Xml.Serialization;
+using System.Windows.Forms;
 
-
-namespace Menekki_0._3
+namespace WindowsFormsApp1.JohannaPakkala.Menekki_0._3
 {
     public class Components
     {
@@ -20,7 +20,7 @@ namespace Menekki_0._3
         List<SingleComponent> ComponentList = new List<SingleComponent>();
 
         // path and name of xml-file. All components will be saved there.
-        private static string pathAndFilename = "Komponentit.xml";
+        private static string pathAndFilename = Path.GetFullPath(Path.Combine(Application.StartupPath, @"../../JohannaPakkala/Komponentit.xml"));
 
         //CONSTRUCTOR
         public Components()

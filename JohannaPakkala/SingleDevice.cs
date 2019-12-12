@@ -2,7 +2,7 @@
 // to use lists
 using System.Collections.Generic;
 
-namespace Menekki_0._3
+namespace WindowsFormsApp1.JohannaPakkala.Menekki_0._3
 {
     public class SingleDevice
     {
