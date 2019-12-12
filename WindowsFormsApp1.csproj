@@ -55,6 +55,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JMR\Classes\Character.cs" />
+    <Compile Include="JMR\Classes\ConsoleWindow.cs" />
+    <Compile Include="JMR\Classes\Player.cs" />
+    <Compile Include="JMR\Classes\Tile.cs" />
+    <Compile Include="JMR\Interface\IDestroyable.cs" />
+    <Compile Include="JMR\Program.cs" />
     <Compile Include="JyriLehto\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
