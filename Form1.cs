@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
             JyriLehto.Program.JyriLehto();
         }
+
+       private void button2_Click(object sender, EventArgs e)
+        {
+            MikaPieniluoma.Program.MikaPieniluoma();
+        }
     }
 }
