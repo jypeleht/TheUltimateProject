@@ -55,6 +55,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="JohannaPakkala\Components.cs" />
+    <Compile Include="JohannaPakkala\Devices.cs" />
+    <Compile Include="JohannaPakkala\Program.cs" />
+    <Compile Include="JohannaPakkala\SingleComponent.cs" />
+    <Compile Include="JohannaPakkala\SingleDevice.cs" />
     <Compile Include="JyriLehto\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,5 +89,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Content Include="JohannaPakkala\Komponentit.xml" />
+    <Content Include="JohannaPakkala\Laitteet.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
