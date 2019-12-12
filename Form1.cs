@@ -21,5 +21,10 @@ namespace WindowsFormsApp1
         {
             JyriLehto.Program.JyriLehto();
         }
+
+        private void BtnHello_Click(object sender, EventArgs e)
+        {
+            Mika.Program.Mika();
+        }
     }
 }
