@@ -49,6 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlshriefyOsama\Employee.cs" />
+    <Compile Include="AlshriefyOsama\Incident.cs" />
+    <Compile Include="AlshriefyOsama\Order.cs" />
+    <Compile Include="AlshriefyOsama\Program.cs" />
+    <Compile Include="AlshriefyOsama\Ticket.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
