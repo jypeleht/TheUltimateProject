@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FundScraperCore;
 
 namespace WindowsFormsApp1
 {
@@ -20,6 +21,11 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             JyriLehto.Program.JyriLehto();
+        }
+
+        private void btn_TT_Click(object sender, EventArgs e)
+        {
+            FundScraperCore.Program.TomiTupiini();
         }
     }
 }
