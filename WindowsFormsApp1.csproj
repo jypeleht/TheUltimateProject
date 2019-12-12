@@ -59,6 +59,14 @@
     <Compile Include="JyriLehto\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rahajuttu\ISailyttava.cs" />
+    <Compile Include="rahajuttu\ITallettava.cs" />
+    <Compile Include="rahajuttu\Kayttotili.cs" />
+    <Compile Include="rahajuttu\Pankki.cs" />
+    <Compile Include="rahajuttu\Program.cs" />
+    <Compile Include="rahajuttu\Saastopossu.cs" />
+    <Compile Include="rahajuttu\Saastotili.cs" />
+    <Compile Include="rahajuttu\Tili.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
