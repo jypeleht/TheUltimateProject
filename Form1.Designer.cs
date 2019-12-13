@@ -50,14 +50,14 @@
             // 
             // buttonJMR
             // 
-            this.buttonJMR.Location = new System.Drawing.Point(51, 180);
+            this.buttonJMR.Location = new System.Drawing.Point(22, 201);
             this.buttonJMR.Name = "buttonJMR";
             this.buttonJMR.Size = new System.Drawing.Size(75, 23);
             this.buttonJMR.TabIndex = 1;
             this.buttonJMR.Text = "JMR";
             this.buttonJMR.UseVisualStyleBackColor = true;
             this.buttonJMR.Click += new System.EventHandler(this.ButtonJMR_Click);
-            //
+            // 
             // buttonJarmo
             // 
             this.buttonJarmo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
