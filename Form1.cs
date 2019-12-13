@@ -19,7 +19,32 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            JyriLehto.Program.JyriLehto();
+            JyriLehto.Program.JyriLehto();            
+        }
+
+        private void ButtonJMR_Click(object sender, EventArgs e)
+        {
+            Olio_Harjoitus.Program.JMR(null);
+        }
+            
+        private void ButtonRahahomma_Click(object sender, EventArgs e)
+        {
+            rahajuttu.Program.rahajuttu();
+        }
+
+        private void ButtonArttu_Click(object sender, EventArgs e)
+        {
+            ArttuLaihorinne.Program.JyriLehto();
+        }
+
+        private void ButtonJarmo_Click(object sender, EventArgs e)
+        {
+            JarmoKarna.Program.JarmoKarna();
+        }
+
+        private void buttonTeemu_Click(object sender, EventArgs e)
+        {
+            ikä.Program.Aja();
         }
 
         private void BtnHello_Click(object sender, EventArgs e)
