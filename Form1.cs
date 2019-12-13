@@ -26,5 +26,25 @@ namespace WindowsFormsApp1
         {
             Olio_Harjoitus.Program.JMR(null);
         }
+            
+        private void ButtonRahahomma_Click(object sender, EventArgs e)
+        {
+            rahajuttu.Program.rahajuttu();
+        }
+
+        private void ButtonArttu_Click(object sender, EventArgs e)
+        {
+            ArttuLaihorinne.Program.JyriLehto();
+        }
+
+        private void ButtonJarmo_Click(object sender, EventArgs e)
+        {
+            JarmoKarna.Program.JarmoKarna();
+        }
+
+        private void buttonTeemu_Click(object sender, EventArgs e)
+        {
+            ikä.Program.Aja();
+        }
     }
 }
