@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.Drawing;
+
 namespace WindowsFormsApp1.Properties
 {
 
@@ -24,7 +26,17 @@ namespace WindowsFormsApp1.Properties
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources
     {
-
+        internal static Image truckBlue;
+        internal static Image carGreen;
+        internal static Image carGrey;
+        internal static Image carPink;
+        internal static Image carOrange;
+        internal static Image carRed;
+        internal static Image truckWhite;
+        internal static Image ambulance;
+        internal static Image bronze;
+        internal static Image silver;
+        internal static Image gold;
         private static global::System.Resources.ResourceManager resourceMan;
 
         private static global::System.Globalization.CultureInfo resourceCulture;
