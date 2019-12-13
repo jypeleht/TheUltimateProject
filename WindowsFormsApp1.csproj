@@ -60,6 +60,7 @@
     <Compile Include="JyriLehto\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Teemu\Program.cs" />
     <Compile Include="rahajuttu\ISailyttava.cs" />
     <Compile Include="rahajuttu\ITallettava.cs" />
     <Compile Include="rahajuttu\Kayttotili.cs" />

@@ -23,7 +23,12 @@ namespace WindowsFormsApp1
         {
             JyriLehto.Program.JyriLehto();
         }
-        
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            ikä.Program.Aja();
+        }
+            
         private void ButtonRahahomma_Click(object sender, EventArgs e)
         {
             rahajuttu.Program.rahajuttu();
