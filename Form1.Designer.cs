@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.buttonJMR = new System.Windows.Forms.Button();
             this.buttonJarmo = new System.Windows.Forms.Button();
             this.buttonArttu = new System.Windows.Forms.Button();
             this.buttonRahahomma = new System.Windows.Forms.Button();
@@ -47,6 +48,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // buttonJMR
+            // 
+            this.buttonJMR.Location = new System.Drawing.Point(51, 180);
+            this.buttonJMR.Name = "buttonJMR";
+            this.buttonJMR.Size = new System.Drawing.Size(75, 23);
+            this.buttonJMR.TabIndex = 1;
+            this.buttonJMR.Text = "JMR";
+            this.buttonJMR.UseVisualStyleBackColor = true;
+            this.buttonJMR.Click += new System.EventHandler(this.ButtonJMR_Click);
+            //
             // buttonJarmo
             // 
             this.buttonJarmo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,6 +107,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.buttonJMR);
             this.Controls.Add(this.buttonTeemu);
             this.Controls.Add(this.buttonJarmo);
             this.Controls.Add(this.buttonArttu);
@@ -111,6 +123,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonJMR;
         private System.Windows.Forms.Button buttonJarmo;
         private System.Windows.Forms.Button buttonArttu;
         private System.Windows.Forms.Button buttonRahahomma;
