@@ -12,8 +12,6 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        bool raceIsOn = false;
-
         public Form1()
         {
             InitializeComponent();
@@ -22,11 +20,6 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             JyriLehto.Program.JyriLehto();
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            ikä.Program.Aja();
         }
             
         private void ButtonRahahomma_Click(object sender, EventArgs e)
@@ -44,30 +37,9 @@ namespace WindowsFormsApp1
             JarmoKarna.Program.JarmoKarna();
         }
 
-        private void ButtonStartRace_Click(object sender, EventArgs e)
+        private void buttonTeemu_Click(object sender, EventArgs e)
         {
-            if (!raceIsOn)
-            {
-                buttonStartRace.Text = "Stop race";
-                raceIsOn = true;
-                timer1.Enabled = true;
-            }
-            else
-            {
-                buttonStartRace.Text = "Start race";
-                raceIsOn = false;
-                timer1.Enabled = false;
-            }
-        }
-
-        private void Timer1_Tick(object sender, EventArgs e)
-        {
-            buttonLeftCar.Location = new Point(buttonLeftCar.Location.X, buttonLeftCar.Location.Y - 1);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            ikä.Program.Aja();
         }
     }
 }
