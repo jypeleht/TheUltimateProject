@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.btnHello = new System.Windows.Forms.Button();
             this.buttonJMR = new System.Windows.Forms.Button();
             this.buttonJarmo = new System.Windows.Forms.Button();
             this.buttonArttu = new System.Windows.Forms.Button();
@@ -48,6 +49,16 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnHello
+            // 
+            this.btnHello.Location = new System.Drawing.Point(22, 238);
+            this.btnHello.Name = "btnHello";
+            this.btnHello.Size = new System.Drawing.Size(143, 53);
+            this.btnHello.TabIndex = 1;
+            this.btnHello.Text = "Hello World!";
+            this.btnHello.UseVisualStyleBackColor = true;
+            this.btnHello.Click += new System.EventHandler(this.BtnHello_Click);
+            //
             // buttonJMR
             // 
             this.buttonJMR.Location = new System.Drawing.Point(22, 201);
@@ -107,6 +118,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.btnHello);
             this.Controls.Add(this.buttonJMR);
             this.Controls.Add(this.buttonTeemu);
             this.Controls.Add(this.buttonJarmo);
@@ -117,12 +129,12 @@
             this.Name = "Form1";
             this.Text = "UltimateProject";
             this.ResumeLayout(false);
-
         }
 
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHello;
         private System.Windows.Forms.Button buttonJMR;
         private System.Windows.Forms.Button buttonJarmo;
         private System.Windows.Forms.Button buttonArttu;

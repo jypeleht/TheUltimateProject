@@ -46,5 +46,10 @@ namespace WindowsFormsApp1
         {
             ikä.Program.Aja();
         }
+
+        private void BtnHello_Click(object sender, EventArgs e)
+        {
+            Mika.Program.Mika();
+        }
     }
 }
