@@ -35,6 +35,7 @@
             this.buttonArttu = new System.Windows.Forms.Button();
             this.buttonRahahomma = new System.Windows.Forms.Button();
             this.buttonTeemu = new System.Windows.Forms.Button();
+            this.buttonTykit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -58,7 +59,7 @@
             this.btnHello.Text = "Hello World!";
             this.btnHello.UseVisualStyleBackColor = true;
             this.btnHello.Click += new System.EventHandler(this.BtnHello_Click);
-            //
+            // 
             // buttonJMR
             // 
             this.buttonJMR.Location = new System.Drawing.Point(22, 201);
@@ -113,11 +114,22 @@
             this.buttonTeemu.UseVisualStyleBackColor = true;
             this.buttonTeemu.Click += new System.EventHandler(this.buttonTeemu_Click);
             // 
+            // buttonTykit
+            // 
+            this.buttonTykit.Location = new System.Drawing.Point(445, 127);
+            this.buttonTykit.Name = "buttonTykit";
+            this.buttonTykit.Size = new System.Drawing.Size(126, 59);
+            this.buttonTykit.TabIndex = 2;
+            this.buttonTykit.Text = "Tykit";
+            this.buttonTykit.UseVisualStyleBackColor = true;
+            this.buttonTykit.Click += new System.EventHandler(this.buttonTykit_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.buttonTykit);
             this.Controls.Add(this.btnHello);
             this.Controls.Add(this.buttonJMR);
             this.Controls.Add(this.buttonTeemu);
@@ -129,6 +141,7 @@
             this.Name = "Form1";
             this.Text = "UltimateProject";
             this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -140,6 +153,7 @@
         private System.Windows.Forms.Button buttonArttu;
         private System.Windows.Forms.Button buttonRahahomma;
         private System.Windows.Forms.Button buttonTeemu;
+        private System.Windows.Forms.Button buttonTykit;
     }
 }
 

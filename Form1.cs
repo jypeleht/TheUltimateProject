@@ -51,5 +51,10 @@ namespace WindowsFormsApp1
         {
             Mika.Program.Mika();
         }
+
+        private void buttonTykit_Click(object sender, EventArgs e)
+        {
+            EsaKohtala.Program.EsaKohtala();
+        }
     }
 }
